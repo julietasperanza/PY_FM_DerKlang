@@ -1,0 +1,52 @@
+
+/* Video Acerca De*/
+.mi-videoAcercaDe {
+	position: absolute;
+ 	left: 800px;
+ 	top: 10px;
+ 	margin-top: 70px;
+ 	margin-left: 130px; 
+ 	float: right;
+	width: 400px; 
+	height: 500px;
+	margin:100px;
+	float: right;
+ }
+
+
+/*Bucle*/
+@for $letra from 1 through 3 {
+	.mi-quienesS-#{$letra} {
+		font-size: 20px *$letra;
+		text-shadow: 10px 10px 10px $color-Lima;
+		padding: 10px;
+	}
+}
+
+
+/*copilacion presentacion*/
+.mi-contenedor1
+	.mi-NombreRadio {
+		font-size: 90px;
+		font-weight: bold;
+		font-family: Verdana;
+		padding: 10px;
+	}
+	.mi-Seccion {
+	font-size: 45px;
+	font-weight: normal;
+	padding: 10px;
+	}
+	.mi-quienesS {
+		font-weight: normal;
+		padding: 10px;
+	}	
+	.mi-texto {
+			font-family: Helvetica;
+		 	font-size: 20px; 
+		 	padding: 10px;
+		 	margin-right: 500px; 
+	}
+	
+
+	

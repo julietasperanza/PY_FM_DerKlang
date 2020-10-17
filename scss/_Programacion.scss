@@ -1,0 +1,27 @@
+
+.video3 {
+	position: absolute;
+ 	left: 700px;
+ 	top: 30px;
+ 	height: 500px;
+ 	width: 500px;
+ 	margin-top: 90px;
+ 	margin-left: 140px; 
+}
+
+.tablaProgr {
+	margin: 20px;
+	padding: 20px;
+	.miTabla-centrado {
+		text-align: center;
+		text-shadow: 2px 2px 2px $color-Gris;
+		font-size: 20px;
+		font-weight: normal;
+		background-color: $color-Lima;
+	}
+}	
+		
+	td {
+		text-align: center;
+	}
+	
